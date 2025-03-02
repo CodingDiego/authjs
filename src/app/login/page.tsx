@@ -1,12 +1,11 @@
 import React from 'react'
 import LoginForm from './LoginForm'
 
-const Login = () => {
+export default async function Login() {
     return (
-        <div>
+        <div className="min-h-screen flex items-center justify-center bg-gray-100">
             <LoginForm />
         </div>
     )
 }
 
-export default Login
